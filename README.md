@@ -32,3 +32,7 @@ openssl x509 -req -in client.req -CA ca.cer -CAkey ca.key -set_serial 101 -exten
 
 openssl pkcs12 -export -inkey client.key -in client.cer -out client.pfx
 
+
+
+How To Use Generated Certificates in C# Application (DEMO / SERVER with CLIENT using TLS and Certificates during communication)
+(there's two application SERVER and CLIENT with source code in C#)
