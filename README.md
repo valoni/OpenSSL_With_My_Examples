@@ -4,7 +4,7 @@ OpenSSL With Example
 How to Genearate SSL Certificate 
 
 ------------------------------------
-GENERATION OF PRIVATE KEYS 
+CA / CERT GENERATION
 ------------------------------------
 openssl req -newkey rsa:2048 -keyform PEM -keyout ca.key -x509 -days 3650 -outform PEM -out ca.cer
 
